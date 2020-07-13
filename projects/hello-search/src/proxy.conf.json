@@ -1,19 +1,13 @@
 {
     "/api": {
-      "target": "https://vm-su-sba.sinequa.com:13343",
-      "secure": true,
-      "changeOrigin": true
+      "target": "http://localhost",
+      "secure": false,
+      "changeOrigin": false
     },
     
     "/xdownload": {
-        "target": "https://vm-su-sba.sinequa.com:13343",
-        "secure": true,
-        "changeOrigin": true
-    },
-    
-    "/saml/redirect": {
-        "target": "https://vm-su-sba.sinequa.com:13343",
-        "secure": true,
-        "changeOrigin": true
+        "target": "http://localhost",
+        "secure": false,
+        "changeOrigin": false
     }
 }

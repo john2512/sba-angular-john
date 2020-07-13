@@ -18,7 +18,7 @@ export function StartConfigInitializer(startConfigWebService: StartConfigWebServ
 }
 
 export const startConfig: StartConfig = {
-    app: "your-app-name",
+    app: "sba-angular-hello-fork",
     production: environment.production
 };
 

@@ -43,9 +43,9 @@ import { environment } from "../environments/environment";
 
 // Initialization of @sinequa/core
 export const startConfig: StartConfig = {
-    app: "training",
+    app: "sba-angular-vanilla-fork",
     production: environment.production,
-    autoSAMLProvider: environment.autoSAMLProvider,
+    //autoSAMLProvider: environment.autoSAMLProvider,
     auditEnabled: true
 };
 

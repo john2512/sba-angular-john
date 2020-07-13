@@ -1,5 +1,5 @@
 export const environment = {
-  url: "https://vm-su-sba.sinequa.com:13343",
+  url: "http://localhost",
   autoSAMLProvider: "identity",
   production: true
 };
